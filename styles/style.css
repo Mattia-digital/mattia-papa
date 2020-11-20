@@ -1,0 +1,44 @@
+html {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #212529;
+    background-color: F8F9FA;
+    
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
+
+p {
+    font-family: "Raleway";
+}
+
+h1, h2, h3, h4 {
+    color: #495057;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+img {
+    display: block; */ le immagini sono un inline element come i paragrafi */
+    margin: 0;
+}
+
+#mattia {
+    width: 300px;
+}
