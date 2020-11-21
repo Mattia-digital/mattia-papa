@@ -7,10 +7,7 @@ html {
 }
 
 body {
-    width: 600px;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 1px solid black;
+
 }
 
 p {
@@ -33,6 +30,19 @@ h3 {
     font-size: 20px;
 }
 
+header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 img {
     display: block; */ le immagini sono un inline element come i paragrafi */
@@ -41,4 +51,9 @@ img {
 
 #mattia {
     width: 300px;
+}
+
+
+#menu-principale {
+    list-style: none;
 }
