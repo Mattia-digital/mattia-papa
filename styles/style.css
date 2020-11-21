@@ -3,7 +3,8 @@ html {
     font-family: "Montserrat", sans-serif;
     color: #212529;
     background-color: F8F9FA;
-    
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -40,12 +41,27 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction:row;
+}
+
+.container1 {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container2 {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 img {
-    display: block; */ le immagini sono un inline element come i paragrafi */
+    display: block; /* le immagini sono un inline element come i paragrafi */
     margin: 0;
 }
 
@@ -56,4 +72,8 @@ img {
 
 #menu-principale {
     list-style: none;
+}
+
+#bio {
+    width: 600px;
 }
