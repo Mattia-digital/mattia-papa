@@ -44,25 +44,26 @@ nav {
     justify-content: center;
 }
 
-.container1 {
+img {
+    display: block; /* le immagini sono un inline element come i paragrafi */
+    margin: 0;
+}
+
+.container {
     margin: 20px;
     padding: 20px;
     display: flex;
+    border: 1px solid;
+}
+
+#home-bio {
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.container2 {
-    margin: 20px;
-    padding: 20px;
-    display: flex;
+#home-main {
     flex-wrap: wrap;
     flex-direction: column;
-}
-
-img {
-    display: block; /* le immagini sono un inline element come i paragrafi */
-    margin: 0;
 }
 
 #mattia {
@@ -84,4 +85,24 @@ img {
     list-style: none;
     display: inline;
     margin: 20px;
+}
+
+#blog {
+    flex-direction: raw;
+    flex-wrap: wrap;
+}
+#post {
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.blogpost-info li{
+    display: inline;
+    list-style: none;
+    font-size: 12px;
+}
+
+.blogpost-info {
+    display: flex;
+    justify-content: space-between
 }
