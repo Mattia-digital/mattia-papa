@@ -41,7 +41,7 @@ header {
 
 nav {
     display: flex;
-    flex-direction:row;
+    justify-content: center;
 }
 
 .container1 {
@@ -70,10 +70,18 @@ img {
 }
 
 
-#menu-principale {
+#menu-principale li {
     list-style: none;
+    display: inline;
+    margin: 20px;
 }
 
 #bio {
     width: 600px;
+}
+
+#menu-blog li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
 }
