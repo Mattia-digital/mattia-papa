@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+    padding: 20px;
     font-size: 32px;
 }
 
@@ -125,4 +126,28 @@ img {
 
 .card-preview-text {
     font-size: 14px;
+}
+
+#menu-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-blog {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid;
+}
+
+form {
+    display: flex;
+    max-height: 20px;
+}
+
+.article-latest {
+    width: 600px;
 }
