@@ -8,7 +8,8 @@ html {
 }
 
 body {
-
+    margin: 0px; /* Questo ha risolto il problema del piccolo margine nell'header */
+    padding: 0px;
 }
 
 p {
@@ -89,7 +90,7 @@ img {
 }
 
 #bio {
-    width: 600px;
+    width: 60%;
 }
 
 #menu-blog li{
@@ -167,4 +168,14 @@ section {
 #home-nav-start2impact {
     justify-content: space-between;
     align-items: center;
+}
+
+.article {
+    flex-direction: column;
+}
+
+
+
+.cover {
+    min-height: 300px;
 }
