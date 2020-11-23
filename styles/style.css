@@ -159,3 +159,12 @@ form {
 #home-lavori-iframe {
     flex-wrap: wrap;
 }
+
+section {
+    
+}
+
+#home-nav-start2impact {
+    justify-content: space-between;
+    align-items: center;
+}
